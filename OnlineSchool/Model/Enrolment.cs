@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OnlineSchool
 {
-    public class Enrolment 
+    public class Enrolment
     {
 
         private int id;
@@ -37,7 +37,7 @@ namespace OnlineSchool
             
             get { return id; }
             set{ this.id = value; }
-           }
+         }
 
         public int Studentid
         {

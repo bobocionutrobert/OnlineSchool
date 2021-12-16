@@ -41,6 +41,20 @@ namespace OnlineSchool
             return null;
         }
 
+        public int returnCoruseIdByName(string name)
+        {
+            foreach(Course course in courseList)
+            {
+                if (course.Name.Equals(name))
+                {
+                    return course.Id;
+                }
+            }
+            return -1;
+        }
+
+        
+
         public bool addCourse(Course course)
         {
             int poz = positionById(course.Id);
@@ -174,7 +188,7 @@ namespace OnlineSchool
                 string[] prop = line.Split(",");
 
 
-                Console.WriteLine(line);
+               
 
                 if (line.Length > 2)
                 {

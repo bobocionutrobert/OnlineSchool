@@ -13,6 +13,7 @@ namespace OnlineSchool.Controller
         public ControllerEnrolment()
         {
             enrolments = new List<Enrolment>();
+            load();
         }
 
 
@@ -42,6 +43,21 @@ namespace OnlineSchool.Controller
             }
             return null;
 
+        }
+
+        public List<Enrolment> enrolmentbyStudentId(int studentid)
+        {
+            List<Enrolment> enro = new List<Enrolment>();
+            foreach(Enrolment enrolment in enrolments)
+            {
+                if(enrolment.Studentid == studentid)
+                {
+
+                    enro.Add(enrolment);
+                }
+            }
+
+            return enro;
         }
 
         
@@ -97,6 +113,8 @@ namespace OnlineSchool.Controller
                 }
             }
         }
+
+
 
 
         public void load()

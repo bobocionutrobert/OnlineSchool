@@ -8,9 +8,9 @@ namespace OnlineSchool
     {
         static void Main(string[] args)
         {
-            Admin s = new Admin("2,Admin,Ionel,Ion,email,39,2398");
+            Student s = new Student("1,Student,Ion,Ionut,email,20,7");
 
-            ViewAdmin view = new ViewAdmin(s);
+            ViewStudent view = new ViewStudent(s);
 
             view.play();
 

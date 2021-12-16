@@ -1,6 +1,5 @@
-1,course,Science,Math,10
-2,course,Literature,English,10
-5,course,Literature,Ro,10
-3,course,Science,Chemistry,4
-4,course,Science,Math,3
-
+1,mathcourse,Science,Math,10
+2,englishcourse,Literature,English,10
+3,chemistrycourse,Science,Chemistry,4
+4,physicscourse,Science,Physics,3
+5,rocourse,Literature,Ro,10
