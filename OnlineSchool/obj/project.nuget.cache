@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kx61dm+L8XX6J+09zWHjMtnagLpVC6//V9a2QrudWpvNnnP+ohVKB8jyEvQ4PGjWUOiLBPIOZiSORGYMHcfmZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Asus\\Desktop\\FullStackC#\\Mostenirea\\OnlineSchool\\OnlineSchool\\OnlineSchool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

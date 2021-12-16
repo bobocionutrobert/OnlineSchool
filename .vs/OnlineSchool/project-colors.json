@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0430397d-c376-465a-ab42-9f4613bbcdc0": {
+      "ProjectGuid": "0430397d-c376-465a-ab42-9f4613bbcdc0",
+      "DisplayName": "OnlineSchool",
+      "ColorIndex": 0
+    },
+    "68a61b0c-25c0-47c3-9d49-f15051bfcb5b": {
+      "ProjectGuid": "68a61b0c-25c0-47c3-9d49-f15051bfcb5b",
+      "DisplayName": "OnlineSchoolTests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
